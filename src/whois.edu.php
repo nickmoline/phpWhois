@@ -40,6 +40,7 @@ class edu_handler
                 'domain.nserver' => 'Name Servers:',
                 'domain.changed' => 'Domain record last updated:',
                 'domain.created' => 'Domain record activated:',
+				'domain.expires' => 'Domain expires:',
                 'owner'	=> 'Registrant:',
                 'admin' => 'Administrative Contact:',
                 'tech' => 'Technical Contact:',
