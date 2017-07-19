@@ -47,7 +47,7 @@ class gtld_handler extends WhoisClient
                         'Creation Date:' => 'regrinfo.domain.created',
                         'Created On:' => 'regrinfo.domain.created',
                         'Expiration Date:' => 'regrinfo.domain.expires',
-						'Registry Expiry Date' => 'regrinfo.domain.expires',
+						'Registry Expiry Date:' => 'regrinfo.domain.expires',
                         'Updated Date:' => 'regrinfo.domain.changed',
                         'No match for ' => 'nodomain'
 	                     );
@@ -55,7 +55,7 @@ class gtld_handler extends WhoisClient
 	function parse($data, $query)
 		{
 		$this->Query = array();
-		$this->result = generic_parser_b($data['rawdata'], $this->REG_FIELDS, 'dmy');
+		$this->result = generic_parser_b($data['rawdata'], $this->REG_FIELDS, 'mdy');
 
 		unset($this->result['registered']);
 
