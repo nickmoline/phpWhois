@@ -130,6 +130,7 @@ $this->WHOIS_SPECIAL = array(
     'brussels'               => 'whois.nic.brussels',
     'build'                  => 'whois.nic.build',
     'builders'               => 'whois.donuts.co',
+	'business'				 => 'whois.donuts.co',
     'buzz'                   => 'whois.nic.buzz',
     'bw'                     => 'whois.nic.net.bw',
     'by'                     => 'whois.cctld.by',

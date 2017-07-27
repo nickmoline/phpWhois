@@ -34,5 +34,8 @@
             "src/whois.main.php",
             "src/whois.utils.php"
         ]
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1"
     }
 }
